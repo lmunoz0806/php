@@ -4,10 +4,10 @@
 
 // MYSQL Credentials 
 $servername = "localhost";
-$username = "";
-$password = "";
+$username = "username";
+$password = "password";
 $port = 3306;
-$db = "";
+$db = "database";
 
 // Create a connection using default port
 $conn = new mysqli($servername, $username, $password, $db);
